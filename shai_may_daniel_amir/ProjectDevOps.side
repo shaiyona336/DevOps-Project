@@ -2,7 +2,7 @@
   "id": "ef3ede7b-03e2-4c7b-aa30-814606f3aab4",
   "version": "2.0",
   "name": "ProjectDevOps",
-  "url": "https://5804-213-57-115-198.ngrok-free.app/DevOps-Project/shai_may_daniel_sahar_amir/",
+  "url": "http://localhost:9090/DevOps-Project/shai_may_daniel_amir/",
   "tests": [{
     "id": "3851cd0f-5ad6-4811-ae93-29a56e70c7ee",
     "name": "Test1",
@@ -10,7 +10,7 @@
       "id": "14717273-c941-4220-a1ff-9f8fdb45d519",
       "comment": "",
       "command": "open",
-      "target": "https://5804-213-57-115-198.ngrok-free.app/DevOps-Project/shai_may_daniel_sahar_amir/",
+      "target": "http://localhost:9090/DevOps-Project/shai_may_daniel_amir/",
       "targets": [],
       "value": ""
     }, {
@@ -147,6 +147,6 @@
     "timeout": 300,
     "tests": []
   }],
-  "urls": ["https://5804-213-57-115-198.ngrok-free.app/DevOps-Project/shai_may_daniel_sahar_amir/"],
+  "urls": ["http://localhost:9090/DevOps-Project/shai_may_daniel_amir/"],
   "plugins": []
 }

@@ -10,7 +10,7 @@ import static io.gatling.javaapi.core.CoreDsl.*;
 import static io.gatling.javaapi.http.HttpDsl.*;
 import static io.gatling.javaapi.jdbc.JdbcDsl.*;
 
-public class Test1Test extends Simulation {
+public class RecordedSimulation extends Simulation {
 
   private HttpProtocolBuilder httpProtocol = http
     .baseUrl("http://localhost:9090")
@@ -36,7 +36,7 @@ public class Test1Test extends Simulation {
   );
 
 
-  private ScenarioBuilder scn = scenario("Test1Test")
+  private ScenarioBuilder scn = scenario("RecordedSimulation")
     .exec(
       http("request_0")
         .post("/DevOps-Project/shai_may_daniel_amir/")
