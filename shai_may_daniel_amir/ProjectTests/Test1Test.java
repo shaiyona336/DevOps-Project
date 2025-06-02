@@ -39,7 +39,7 @@ public class Test1Test extends Simulation {
   private ScenarioBuilder scn = scenario("Test1Test")
     .exec(
       http("request_0")
-        .post("/DevOps-Project/shai_may_daniel_sahar_amir/")
+        .post("/DevOps-Project/shai_may_daniel_amir/")
         .headers(headers_0)
         .formParam("username", "May")
     );
