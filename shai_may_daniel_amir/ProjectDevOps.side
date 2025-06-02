@@ -1,0 +1,152 @@
+{
+  "id": "ef3ede7b-03e2-4c7b-aa30-814606f3aab4",
+  "version": "2.0",
+  "name": "ProjectDevOps",
+  "url": "https://5804-213-57-115-198.ngrok-free.app/DevOps-Project/shai_may_daniel_sahar_amir/",
+  "tests": [{
+    "id": "3851cd0f-5ad6-4811-ae93-29a56e70c7ee",
+    "name": "Test1",
+    "commands": [{
+      "id": "14717273-c941-4220-a1ff-9f8fdb45d519",
+      "comment": "",
+      "command": "open",
+      "target": "https://5804-213-57-115-198.ngrok-free.app/DevOps-Project/shai_may_daniel_sahar_amir/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7efd3d59-9d4e-4dd8-8de4-e9d494d81554",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1051x797",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae89e6aa-eb14-4e3b-8c82-2dda5429837e",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70ef5326-f7e5-44d7-aaf9-ae5f8e5635bc",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "May"
+    }, {
+      "id": "9c2bcfa0-2f91-4579-8a48-cd0fdd89b443",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Say Hello']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b5313f8-5264-4d12-a8b7-e86614095b9e",
+      "comment": "Hello msg",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7958097c-dc40-40a0-a58c-c4526dddda38",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Hello, Daniel! Nice to meet you.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1457290-97b0-4531-be92-73d640e6338f",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ea54904-86fa-490e-89b7-b4c0c9b28750",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Daniel')]", "xpath:innerText"]
+      ],
+      "value": "May"
+    }, {
+      "id": "13a11f54-7513-42b8-884f-1241a61ad83d",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Daniel"
+    }, {
+      "id": "3def2407-0ce9-4601-87d2-dc980786314f",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(3)",
+      "targets": [
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Say Hello']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7555c5e9-e0bc-461d-8d2d-1617ed67a9cb",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=strong",
+      "targets": [
+        ["css=strong", "css:finder"],
+        ["xpath=//strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Daniel')]", "xpath:innerText"]
+      ],
+      "value": "Daniel"
+    }]
+  }],
+  "suites": [{
+    "id": "a18eb4aa-b98e-4a41-a956-b16aef74bac9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://5804-213-57-115-198.ngrok-free.app/DevOps-Project/shai_may_daniel_sahar_amir/"],
+  "plugins": []
+}
