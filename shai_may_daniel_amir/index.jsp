@@ -6,7 +6,7 @@
     <title>Hello JSP App!</title>
 </head>
 <body>
-    <h2>Welcome to My JSP App</h2>
+    <h2>made change</h2>
     <form method="post">
         <label for="username">Enter your name:</label>
         <input type="text" id="username" name="username" />
